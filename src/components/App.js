@@ -17,7 +17,8 @@ function App() {
         <Status />
         <Header />
         <Routes>
-          <Route path="/ofB" element={<PostCard post={posts} />} />
+          {/* <Route path="/ofB" element={<PostCard posts={posts} />} /> */}
+          <Route path="/ofB" element={<PostCard posts={posts} />} />
           <Route path="/" element={<PostCard posts={posts} />} />
         </Routes>
       </div>
