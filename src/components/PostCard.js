@@ -40,7 +40,7 @@ function PostCard(props) {
             <div className="container-right">
               <img
                 src="https://aux.iconspalace.com/uploads/comments-icon-256.png"
-                style={{ width: '15px', height: '15px' }}
+                className="commentIcon"
                 alt="chat"
               />
               <span>{item.comments}</span>
