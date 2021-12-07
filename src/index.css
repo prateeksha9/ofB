@@ -116,7 +116,10 @@ code {
   display: none;
   margin-top: -35px;
 }
-
+.commentIcon{
+  height: 15px;
+  width: 15px
+}
 .title {
   /* display: inline; */
   display: flex;
